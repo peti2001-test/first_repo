@@ -183,6 +183,13 @@ var (
 	defaultRegistry  = "consul"
 	defaultSelector  = "default"
 	defaultTransport = "http"
+	
+	defaultClient    = "rpc"
+	defaultServer    = "rpc"
+	defaultBroker    = "http"
+	defaultRegistry  = "consul"
+	defaultSelector  = "default"
+	defaultTransport = "http"
 )
 
 func init() {
